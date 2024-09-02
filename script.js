@@ -3,7 +3,7 @@ const closeBtn = document.querySelector('.mNavClose');
 const closeBtnIcon = document.querySelector('.mNavIcon');
 
 const navOpen = 'left-0';
-const navClose = '-left-[280px]';
+const navClose = 'left-[-280px]';
 const arrowIconLeft = 'ri-arrow-left-s-fill';
 const arrowIconRight = 'ri-arrow-right-s-fill';
 
