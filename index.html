@@ -100,7 +100,7 @@
                             <label for="navSearch" class="flex justify-center items-center group">
                                 <i class="ri-search-2-line text-2xl text-primary"></i>
                             </label>
-                            <input type="text" id="navSearch" placeholder="Search..." class="outline-none w-[100px] border-b-2 border-accent-secondary bg-transparent focus:border-b-2 focus:border-primary focus:w-[200px] placeholder:italic transition-all duration-300">
+                            <input type="text" id="navSearch" placeholder="Search..." class="outline-none w-[100px] border-b-2 border-accent-secondary bg-transparent focus:border-b-2 focus:border-primary focus:w-[200px] placeholder:italic transition-all duration-300 xl:w-[200px] xl:focus:w-[300px]">
                         </form>
                     </nav>
                     <!-- Desktop Nav -->
@@ -114,7 +114,7 @@
         <section class="hero bg-accent-secondary py-12 lg:pt-24 xl:pt-12 xl:pb-0 overflow-hidden">
             <div class="container mx-auto h-full">
                 <div class="flex flex-col xl:flex-row items-center justify-between h-full">
-                    <div class="heroText text-center xl:w-[48%] xl:text-left">
+                    <div class="heroText text-center px-6 xl:w-[48%] xl:text-left">
                         <div class="flex items-center bg-accent-primary py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
                             <i class="ri-service-fill text-2xl text-primary"></i>
                             <div class="uppercase text-base font-medium text-primary tracking-[2.5px]">Live your life</div>
@@ -134,6 +134,81 @@
             </div>
         </section>
         <!-- Hero Section -->
+
+        <!-- Stats Section -->
+        <section class="stats section relative">
+            <div class="container mx-auto">
+                <div class="grid grid-rows-1 grid-cols-1 gap-y-6 justify-between md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+                    <div class="statsItem flex-1 flex flex-col items-center xl:border-r">
+                        <div class="text-4xl xl:text[64px] font-semibold text-primary">65</div>
+                        <div >Total Branches</div>
+                    </div>
+                    <div class="statsItem flex-1 flex flex-col items-center xl:border-r">
+                        <div class="text-4xl xl:text[64px] font-semibold text-primary">+80</div>
+                        <div >License Doctors</div>
+                    </div>
+                    <div class="statsItem flex-1 flex flex-col items-center xl:border-r">
+                        <div class="text-4xl xl:text[64px] font-semibold text-primary">+700</div>
+                        <div >Total Hours</div>
+                    </div>
+                    <div class="statsItem flex-1 flex flex-col items-center">
+                        <div class="text-4xl xl:text[64px] font-semibold text-primary">4321</div>
+                        <div >Happy Patients</div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute w-full h-[100px] bottom-[-100px] left-0 bg-accent-primary"></div>
+        </section>
+        <!-- Stats Section -->
+
+        <!-- Service Section -->
+        <section class="services bg-accent-secondary  pb-[100px] ">
+            <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 rounded-[20px] py-16 px-6 relative h-auto flex items-center sm:h-[368px] sm:py-0 xl:mx-auto xl:pt-[70px] xl:px-0 xl:items-start">
+                <div class="container mx-auto">
+                    <div class="servicesTop flex items-center flex-col px-6 xl:flex-row xl:mb-[60px]">
+                        <h2 class="h2 text-accent-primary flex-1 mb-4 text-center xl:text-left">Our best services for your solution</h2>
+                        <p class="text-accent-secondary flex-1 text-center max-w-2xl xl:text-left xl:max-w-none">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Cum dolorum eligendi delectus vel cupiditate velit mollitia 
+                            architecto sapiente, explicabo placeat?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto mt-8 xl:mt-[-144px]">
+                <div class="grid gap-5 px-8 lg:grid-cols-2 xl:grid-cols-4 xl:px-0">
+                    <div class="servicesItem bg-accent-primary p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col justify-center items-center text-center z-10">
+                        <div class="mb-[15px]">
+                            <img src="assets/icons/services/icon-1.svg" alt="">
+                        </div>
+                        <h3 class="h3 mb-[10px]">General Practitioners</h3>
+                        <p class="font-light leading-normal max-w-[300px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="servicesItem bg-accent-primary p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col justify-center items-center text-center z-10">
+                        <div class="mb-[15px]">
+                            <img src="assets/icons/services/icon-2.svg" alt="">
+                        </div>
+                        <h3 class="h3 mb-[10px]">Pregnancy Support</h3>
+                        <p class="font-light leading-normal max-w-[300px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="servicesItem bg-accent-primary p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col justify-center items-center text-center z-10">
+                        <div class="mb-[15px]">
+                            <img src="assets/icons/services/icon-3.svg" alt="">
+                        </div>
+                        <h3 class="h3 mb-[10px]">Nutrition Support</h3>
+                        <p class="font-light leading-normal max-w-[300px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="servicesItem bg-accent-primary p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col justify-center items-center text-center z-10">
+                        <div class="mb-[15px]">
+                            <img src="assets/icons/services/icon-4.svg" alt="">
+                        </div>
+                        <h3 class="h3 mb-[10px]">Pharmaceutical Care</h3>
+                        <p class="font-light leading-normal max-w-[300px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service Section -->
 
         <!-- Scripts -->
         <script src="imports/swiper/swiper-bundle.min.js"></script>
