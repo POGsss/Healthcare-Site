@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Healthcare Company</title>
+
+        <!-- Imports -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="imports/swiper/swiper-bundle.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Imports -->
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="py-8 lg:pt-6 lg:pb-14 bg-accent-secondary">
+            <div class="container mx-auto flex flex-col gap-y-4 lg:relative lg:flex-row lg:justify-between lg:gap-y-0">
+                <!-- Logo -->
+                <div class="flex justify-center lg:justify-normal">
+                    <a href="#">
+                        <img src="assets/img/header/logo.svg" alt="">
+                    </a>
+                </div>
+                <!-- Logo -->
+                <!-- Links -->
+                <div class=" flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+                    <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                        <i class="ri-map-pin-2-fill text-2xl text-primary"></i>
+                        <div class="text-primary">123 Street, City, Province</div>
+                    </div>
+                    <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                        <i class="ri-phone-fill text-2xl text-primary"></i>
+                        <div class="text-primary">(+63) 987-654-321</div>
+                    </div>
+                    <button class="btn btn-sm btn-outline w-[240px] mx-auto lg:w-auto lg:mx-0">Book Now</button>
+                    <!-- Mobile Nav -->
+                    <nav class="mNav bg-accent-primary fixed w-[280px] h-screen top-0 left-0 shadow-2xl transition-all duration-300 z-20 lg:hidden">
+                        <div class="mNavClose bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-r-lg cursor-pointer">
+                            <i class="mNavIcon ri-arrow-left-s-fill text-2xl text-accent-primary"></i>
+                        </div>
+                        <div class="px-12 flex flex-col gap-y-12 h-full">
+                            <a href="#">
+                                <img src="assets/img/header/logo.svg" alt="">
+                            </a>
+                            <ul class="flex flex-col gap-y-5">
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Doctors</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Department</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="relative flex gap-x-[10px]">
+                                <label for="mNavSearch">
+                                    <i class="ri-search-2-line text-2xl text-primary"></i>
+                                </label>
+                                <input type="text" id="mNavSearch" placeholder="Search..." class="outline-none w-[150px] border-b-2 border-accent-secondary bg-transparent focus:border-b-2 focus:border-primary placeholder:italic">
+                            </form>
+                        </div>
+                    </nav>
+                    <!-- Mobile Nav -->
+                    <!-- Desktop Nav -->
+                    <nav class="bg-accent-primary w-full absolute -bottom-[75px] left-0 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
+                        <ul class="flex gap-x-5">
+                            <li>
+                                <a href="#" class="border-r pr-4 text-accent-tertiary hover:text-primary transition-all duration-300">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-r pr-4 text-accent-tertiary hover:text-primary transition-all duration-300">Doctors</a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-r pr-4 text-accent-tertiary hover:text-primary transition-all duration-300">Department</a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-r pr-4 text-accent-tertiary hover:text-primary transition-all duration-300">Service</a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-r pr-4 text-accent-tertiary hover:text-primary transition-all duration-300">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-accent-tertiary hover:text-primary transition-all duration-300">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="relative flex gap-x-[10px]">
+                            <label for="navSearch" class="flex justify-center items-center group">
+                                <i class="ri-search-2-line text-2xl text-primary"></i>
+                            </label>
+                            <input type="text" id="navSearch" placeholder="Search..." class="outline-none w-[100px] border-b-2 border-accent-secondary bg-transparent focus:border-b-2 focus:border-primary focus:w-[200px] placeholder:italic transition-all duration-300">
+                        </form>
+                    </nav>
+                    <!-- Desktop Nav -->
+                </div>
+                <!-- Links -->
+            </div>
+        </header>
+        <!-- Header -->
+
+        <!-- Scripts -->
+        <script src="imports/swiper/swiper-bundle.min.js"></script>
+        <script src="imports/reveal/scrollreveal.min.js"></script>
+        <script src="script.js"></script>
+        <!-- Scripts -->
+    </body>
+</html>
