@@ -163,7 +163,7 @@
 
         <!-- Service Section -->
         <section class="services bg-accent-secondary  pb-[100px] ">
-            <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 rounded-[20px] py-16 px-6 relative h-auto flex items-center sm:h-[368px] sm:py-0 xl:mx-auto xl:pt-[70px] xl:px-0 xl:items-start">
+            <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-6 rounded-[20px] py-16 px-6 relative h-auto flex items-center sm:h-[368px] sm:py-0 xl:mx-auto xl:pt-[70px] xl:px-0 xl:items-start">
                 <div class="container mx-auto">
                     <div class="servicesTop flex items-center flex-col px-6 xl:flex-row xl:mb-[60px]">
                         <h2 class="h2 text-accent-primary flex-1 mb-4 text-center xl:text-left">Our best services for your solution</h2>
@@ -209,6 +209,54 @@
             </div>
         </section>
         <!-- Service Section -->
+        
+        <!-- Appointment Section -->
+        <section class="appointment section">
+            <div class="container mx-auto">
+                <h2 class="appointmentTitle h2 mb-5 text-center xl:mb-[50px] xl:text-left">
+                    Book Appointment or call: 
+                    <span class="text-primary">(+63) 987-654-321</span>
+                </h2>
+                <form class="appointmentForm flex flex-col gap-y-5 px-4">
+                    <div class="flex flex-col  gap-5 xl:flex-row">
+                        <div class="bg-accent-secondary select relative flex items-center">
+                            <div class="absolute right-4">
+                                <i class="ri-arrow-down-s-fill text-[26px]" text-primary></i>
+                            </div>
+                            <select class="appearance-none outline-none h-full w-full bg-transparent pl-6">
+                                <option value="1">Select Department</option>
+                                <option value="1">Department 1</option>
+                                <option value="1">Department 2</option>
+                                <option value="1">Department 3</option>
+                            </select>
+                        </div>
+                        <div class="bg-accent-secondary select relative flex items-center">
+                            <div class="absolute right-4">
+                                <i class="ri-arrow-down-s-fill text-[26px]" text-primary></i>
+                            </div>
+                            <select class="appearance-none outline-none h-full w-full bg-transparent pl-6">
+                                <option value="1">Select Doctors</option>
+                                <option value="1">Doctor John Doe</option>
+                                <option value="1">Doctor Jane Doe</option>
+                                <option value="1">Doctor Bob Smith</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-5 xl:flex-row">
+                        <input type="text" class="input bg-accent-secondary" placeholder="Fullname">
+                        <input type="text" class="input bg-accent-secondary" placeholder="Phone Number">
+                    </div>
+                    <div class="flex flex-col gap-5 xl:flex-row">
+                        <input type="date" class="input bg-accent-secondary" placeholder="Date">
+                        <input type="time" class="input bg-accent-secondary" placeholder="Time">
+                    </div>
+                    <button class="btn btn-lg btn-accent self-start">
+                        Book your appointment now
+                    </button>
+                </form>
+            </div>
+        </section>
+        <!-- Appointment Section -->
 
         <!-- Scripts -->
         <script src="imports/swiper/swiper-bundle.min.js"></script>
