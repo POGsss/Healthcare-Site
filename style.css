@@ -684,10 +684,6 @@ video {
   margin-top: 2rem;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -722,6 +718,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .min-h-\[288px\] {
@@ -771,6 +771,14 @@ video {
 
 .max-w-\[814px\] {
   max-width: 814px;
+}
+
+.max-w-\[980px\] {
+  max-width: 980px;
+}
+
+.max-w-\[680px\] {
+  max-width: 680px;
 }
 
 .flex-1 {
@@ -919,8 +927,16 @@ video {
   background-image: url(../../public/assets/img/services/bg.svg);
 }
 
+.bg-testimonials {
+  background-image: url(../../public/assets/img/testimonials/bg.svg);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -1016,6 +1032,10 @@ video {
   line-height: 1.5rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -1034,6 +1054,14 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-\[190px\] {
+  line-height: 190px;
+}
+
+.leading-\[190\%\] {
+  line-height: 190%;
 }
 
 .tracking-\[2\.5px\] {
@@ -1301,6 +1329,46 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:inline-block::before {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.before\:h-10::before {
+  content: var(--tw-content);
+  height: 2.5rem;
+}
+
+.before\:w-10::before {
+  content: var(--tw-content);
+  width: 2.5rem;
+}
+
+.before\:bg-quoteLeft::before {
+  content: var(--tw-content);
+  background-image: url(../../public/icons/img/testimonials/quote-left.svg);
+}
+
+.before\:bg-contain::before {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.before\:bg-bottom::before {
+  content: var(--tw-content);
+  background-position: bottom;
+}
+
+.before\:bg-no-repeat::before {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
+}
+
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(255 71 87 / var(--tw-text-opacity));
@@ -1440,6 +1508,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
   }
 
+  .xl\:min-h-\[595px\] {
+    min-height: 595px;
+  }
+
   .xl\:w-\[200px\] {
     width: 200px;
   }
@@ -1450,6 +1522,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .xl\:max-w-none {
     max-width: none;
+  }
+
+  .xl\:max-w-\[710px\] {
+    max-width: 710px;
   }
 
   .xl\:grid-cols-4 {
@@ -1471,6 +1547,11 @@ h1, h2, h3, h4, h5, h6 {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .xl\:pb-0 {
