@@ -642,6 +642,11 @@ video {
   z-index: 20;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -662,6 +667,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mb-\[10px\] {
@@ -708,8 +717,8 @@ video {
   height: 100px;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[450px\] {
+  height: 450px;
 }
 
 .h-auto {
@@ -755,6 +764,18 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-\[100\%\] {
+  min-width: 100%;
 }
 
 .max-w-2xl {
@@ -829,6 +850,11 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-x-14 {
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
 }
 
 .gap-x-2 {
@@ -1052,8 +1078,8 @@ video {
   text-transform: uppercase;
 }
 
-.leading-\[190\%\] {
-  line-height: 190%;
+.leading-\[290\%\] {
+  line-height: 290%;
 }
 
 .leading-normal {
@@ -1062,6 +1088,10 @@ video {
 
 .tracking-\[2\.5px\] {
   letter-spacing: 2.5px;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 .text-accent-primary {
@@ -1082,6 +1112,10 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(255 71 87 / var(--tw-text-opacity));
+}
+
+.opacity-75 {
+  opacity: 0.75;
 }
 
 .shadow {
@@ -1317,6 +1351,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1
+}
+
 .placeholder\:italic::-moz-placeholder {
   font-style: italic;
 }
@@ -1340,19 +1379,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 2.5rem;
 }
 
-.before\:h-20::before {
-  content: var(--tw-content);
-  height: 5rem;
-}
-
 .before\:w-10::before {
   content: var(--tw-content);
   width: 2.5rem;
-}
-
-.before\:w-20::before {
-  content: var(--tw-content);
-  width: 5rem;
 }
 
 .before\:bg-quoteLeft::before {
@@ -1360,19 +1389,9 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../../public/icons/img/testimonials/quote-left.svg);
 }
 
-.before\:bg-services::before {
-  content: var(--tw-content);
-  background-image: url(../../public/assets/img/services/bg.svg);
-}
-
 .before\:bg-contain::before {
   content: var(--tw-content);
   background-size: contain;
-}
-
-.before\:bg-cover::before {
-  content: var(--tw-content);
-  background-size: cover;
 }
 
 .before\:bg-bottom::before {
@@ -1380,24 +1399,9 @@ h1, h2, h3, h4, h5, h6 {
   background-position: bottom;
 }
 
-.before\:bg-top::before {
-  content: var(--tw-content);
-  background-position: top;
-}
-
-.before\:bg-center::before {
-  content: var(--tw-content);
-  background-position: center;
-}
-
 .before\:bg-no-repeat::before {
   content: var(--tw-content);
   background-repeat: no-repeat;
-}
-
-.before\:content-none::before {
-  --tw-content: none;
-  content: var(--tw-content);
 }
 
 .after\:top-0::after {
@@ -1438,11 +1442,6 @@ h1, h2, h3, h4, h5, h6 {
 .after\:bg-no-repeat::after {
   content: var(--tw-content);
   background-repeat: no-repeat;
-}
-
-.after\:content-none::after {
-  --tw-content: none;
-  content: var(--tw-content);
 }
 
 .hover\:text-primary:hover {
