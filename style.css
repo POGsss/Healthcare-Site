@@ -610,6 +610,10 @@ video {
   right: -100%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-\[-100px\] {
   bottom: -100px;
 }
@@ -618,8 +622,16 @@ video {
   left: 0px;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
 .left-\[-280px\] {
   left: -280px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .right-4 {
@@ -632,6 +644,18 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.top-\[-100px\] {
+  top: -100px;
+}
+
+.top-\[-10px\] {
+  top: -10px;
+}
+
+.top-\[-20px\] {
+  top: -20px;
 }
 
 .z-10 {
@@ -655,6 +679,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-4 {
@@ -693,6 +721,10 @@ video {
   margin-top: 2rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .inline {
   display: inline;
 }
@@ -709,16 +741,16 @@ video {
   display: none;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
 .h-\[100px\] {
   height: 100px;
-}
-
-.h-\[450px\] {
-  height: 450px;
 }
 
 .h-auto {
@@ -733,8 +765,16 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-\[288px\] {
   min-height: 288px;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-8 {
@@ -766,16 +806,8 @@ video {
   width: max-content;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
-.min-w-full {
-  min-width: 100%;
-}
-
-.min-w-\[100\%\] {
-  min-width: 100%;
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-2xl {
@@ -798,8 +830,8 @@ video {
   max-width: 814px;
 }
 
-.max-w-\[980px\] {
-  max-width: 980px;
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-1 {
@@ -834,6 +866,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -940,6 +976,11 @@ video {
   background-color: rgb(255 237 238 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(255 71 87 / var(--tw-bg-opacity));
@@ -947,6 +988,10 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-quoteRight {
+  background-image: url(../../public/icons/img/testimonials/quote-right.svg);
 }
 
 .bg-services {
@@ -1078,8 +1123,8 @@ video {
   text-transform: uppercase;
 }
 
-.leading-\[290\%\] {
-  line-height: 290%;
+.leading-\[200\%\] {
+  line-height: 200%;
 }
 
 .leading-normal {
@@ -1116,6 +1161,10 @@ video {
 
 .opacity-75 {
   opacity: 0.75;
+}
+
+.opacity-25 {
+  opacity: 0.25;
 }
 
 .shadow {
@@ -1362,86 +1411,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .placeholder\:italic::placeholder {
   font-style: italic;
-}
-
-.before\:top-0::before {
-  content: var(--tw-content);
-  top: 0px;
-}
-
-.before\:inline-block::before {
-  content: var(--tw-content);
-  display: inline-block;
-}
-
-.before\:h-10::before {
-  content: var(--tw-content);
-  height: 2.5rem;
-}
-
-.before\:w-10::before {
-  content: var(--tw-content);
-  width: 2.5rem;
-}
-
-.before\:bg-quoteLeft::before {
-  content: var(--tw-content);
-  background-image: url(../../public/icons/img/testimonials/quote-left.svg);
-}
-
-.before\:bg-contain::before {
-  content: var(--tw-content);
-  background-size: contain;
-}
-
-.before\:bg-bottom::before {
-  content: var(--tw-content);
-  background-position: bottom;
-}
-
-.before\:bg-no-repeat::before {
-  content: var(--tw-content);
-  background-repeat: no-repeat;
-}
-
-.after\:top-0::after {
-  content: var(--tw-content);
-  top: 0px;
-}
-
-.after\:inline-block::after {
-  content: var(--tw-content);
-  display: inline-block;
-}
-
-.after\:h-10::after {
-  content: var(--tw-content);
-  height: 2.5rem;
-}
-
-.after\:w-10::after {
-  content: var(--tw-content);
-  width: 2.5rem;
-}
-
-.after\:bg-quoteRight::after {
-  content: var(--tw-content);
-  background-image: url(../../public/icons/img/testimonials/quote-right.svg);
-}
-
-.after\:bg-contain::after {
-  content: var(--tw-content);
-  background-size: contain;
-}
-
-.after\:bg-bottom::after {
-  content: var(--tw-content);
-  background-position: bottom;
-}
-
-.after\:bg-no-repeat::after {
-  content: var(--tw-content);
-  background-repeat: no-repeat;
 }
 
 .hover\:text-primary:hover {
