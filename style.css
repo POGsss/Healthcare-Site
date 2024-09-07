@@ -708,6 +708,10 @@ video {
   height: 100px;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .h-auto {
   height: auto;
 }
@@ -718,10 +722,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[400px\] {
-  height: 400px;
 }
 
 .min-h-\[288px\] {
@@ -769,16 +769,16 @@ video {
   max-width: 300px;
 }
 
+.max-w-\[680px\] {
+  max-width: 680px;
+}
+
 .max-w-\[814px\] {
   max-width: 814px;
 }
 
 .max-w-\[980px\] {
   max-width: 980px;
-}
-
-.max-w-\[680px\] {
-  max-width: 680px;
 }
 
 .flex-1 {
@@ -1023,6 +1023,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .text-\[26px\] {
   font-size: 26px;
 }
@@ -1030,10 +1034,6 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
 }
 
 .font-light {
@@ -1052,16 +1052,12 @@ video {
   text-transform: uppercase;
 }
 
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-\[190px\] {
-  line-height: 190px;
-}
-
 .leading-\[190\%\] {
   line-height: 190%;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .tracking-\[2\.5px\] {
@@ -1344,9 +1340,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 2.5rem;
 }
 
+.before\:h-20::before {
+  content: var(--tw-content);
+  height: 5rem;
+}
+
 .before\:w-10::before {
   content: var(--tw-content);
   width: 2.5rem;
+}
+
+.before\:w-20::before {
+  content: var(--tw-content);
+  width: 5rem;
 }
 
 .before\:bg-quoteLeft::before {
@@ -1354,9 +1360,19 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../../public/icons/img/testimonials/quote-left.svg);
 }
 
+.before\:bg-services::before {
+  content: var(--tw-content);
+  background-image: url(../../public/assets/img/services/bg.svg);
+}
+
 .before\:bg-contain::before {
   content: var(--tw-content);
   background-size: contain;
+}
+
+.before\:bg-cover::before {
+  content: var(--tw-content);
+  background-size: cover;
 }
 
 .before\:bg-bottom::before {
@@ -1364,9 +1380,69 @@ h1, h2, h3, h4, h5, h6 {
   background-position: bottom;
 }
 
+.before\:bg-top::before {
+  content: var(--tw-content);
+  background-position: top;
+}
+
+.before\:bg-center::before {
+  content: var(--tw-content);
+  background-position: center;
+}
+
 .before\:bg-no-repeat::before {
   content: var(--tw-content);
   background-repeat: no-repeat;
+}
+
+.before\:content-none::before {
+  --tw-content: none;
+  content: var(--tw-content);
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:inline-block::after {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.after\:h-10::after {
+  content: var(--tw-content);
+  height: 2.5rem;
+}
+
+.after\:w-10::after {
+  content: var(--tw-content);
+  width: 2.5rem;
+}
+
+.after\:bg-quoteRight::after {
+  content: var(--tw-content);
+  background-image: url(../../public/icons/img/testimonials/quote-right.svg);
+}
+
+.after\:bg-contain::after {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.after\:bg-bottom::after {
+  content: var(--tw-content);
+  background-position: bottom;
+}
+
+.after\:bg-no-repeat::after {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
+}
+
+.after\:content-none::after {
+  --tw-content: none;
+  content: var(--tw-content);
 }
 
 .hover\:text-primary:hover {
@@ -1520,12 +1596,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 48%;
   }
 
-  .xl\:max-w-none {
-    max-width: none;
-  }
-
   .xl\:max-w-\[710px\] {
     max-width: 710px;
+  }
+
+  .xl\:max-w-none {
+    max-width: none;
   }
 
   .xl\:grid-cols-4 {
