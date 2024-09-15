@@ -725,6 +725,10 @@ video {
   display: none;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -794,6 +798,10 @@ video {
   max-width: 42rem;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
 .max-w-\[1466px\] {
   max-width: 1466px;
 }
@@ -828,6 +836,12 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .resize {
@@ -945,6 +959,26 @@ video {
   border-bottom-right-radius: 0.5rem;
 }
 
+.rounded-tl-lg {
+  border-top-left-radius: 0.5rem;
+}
+
+.rounded-tr-lg {
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-br-lg {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1026,6 +1060,11 @@ video {
   padding-right: 20px;
 }
 
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1051,6 +1090,15 @@ video {
   padding-bottom: 10px;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pb-\[100px\] {
   padding-bottom: 100px;
 }
@@ -1061,6 +1109,10 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -1383,7 +1435,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(255 246 247 / var(--tw-bg-opacity));
 }
 
-.faqItem.open .faqAnswer {
+.faqItem.open .faqAnswers {
   height: 100%;
 }
 
