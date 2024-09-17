@@ -647,6 +647,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -691,6 +696,10 @@ video {
 
 .mb-\[26px\] {
   margin-bottom: 26px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .mb-\[42px\] {
@@ -761,6 +770,10 @@ video {
   min-height: 400px;
 }
 
+.min-h-\[588px\] {
+  min-height: 588px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -812,6 +825,10 @@ video {
 
 .max-w-\[320px\] {
   max-width: 320px;
+}
+
+.max-w-\[555px\] {
+  max-width: 555px;
 }
 
 .max-w-\[680px\] {
@@ -930,6 +947,10 @@ video {
   row-gap: 1.5rem;
 }
 
+.gap-y-\[30px\] {
+  row-gap: 30px;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -992,6 +1013,16 @@ video {
   border-color: rgb(255 237 238 / var(--tw-border-opacity));
 }
 
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 71 87 / var(--tw-border-opacity));
+}
+
+.border-accent-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 246 247 / var(--tw-border-opacity));
+}
+
 .bg-accent-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(255 246 247 / var(--tw-bg-opacity));
@@ -1011,6 +1042,10 @@ video {
   background-color: transparent;
 }
 
+.bg-departments {
+  background-image: url(../../public/assets/img/departments/bg.svg);
+}
+
 .bg-services {
   background-image: url(../../public/assets/img/services/bg.svg);
 }
@@ -1021,6 +1056,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-right {
@@ -1471,6 +1510,11 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255 107 129 / var(--tw-text-opacity));
 }
 
+.hover\:text-accent-secondary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 237 238 / var(--tw-text-opacity));
+}
+
 .focus\:w-\[200px\]:focus {
   width: 200px;
 }
@@ -1593,6 +1637,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
   }
 
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .xl\:mb-\[50px\] {
     margin-bottom: 50px;
   }
@@ -1617,8 +1665,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
   }
 
+  .xl\:w-\[310px\] {
+    width: 310px;
+  }
+
   .xl\:w-\[48\%\] {
     width: 48%;
+  }
+
+  .xl\:w-\[640px\] {
+    width: 640px;
   }
 
   .xl\:max-w-\[710px\] {
@@ -1641,8 +1697,20 @@ h1, h2, h3, h4, h5, h6 {
     align-items: flex-start;
   }
 
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:gap-y-\[40px\] {
+    row-gap: 40px;
+  }
+
   .xl\:border-r {
     border-right-width: 1px;
+  }
+
+  .xl\:bg-auto {
+    background-size: auto;
   }
 
   .xl\:px-0 {
@@ -1659,16 +1727,36 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0px;
   }
 
+  .xl\:pb-\[90px\] {
+    padding-bottom: 90px;
+  }
+
+  .xl\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
   .xl\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .xl\:pt-3 {
+    padding-top: 0.75rem;
   }
 
   .xl\:pt-\[70px\] {
     padding-top: 70px;
   }
 
+  .xl\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
   .xl\:text-left {
     text-align: left;
+  }
+
+  .xl\:text-\[17px\] {
+    font-size: 17px;
   }
 
   .xl\:focus\:w-\[300px\]:focus {
