@@ -163,7 +163,7 @@
 
         <!-- Service Section -->
         <section class="services bg-accent-secondary  pb-[100px] ">
-            <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-6 rounded-[20px] py-16 px-6 relative h-auto flex items-center sm:h-[368px] sm:py-0 xl:mx-auto xl:pt-[70px] xl:px-0 xl:items-start">
+            <div class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 rounded-[20px] py-16 px-4 relative h-auto flex items-center sm:h-[368px] sm:py-0 xl:mx-auto xl:pt-[70px] xl:px-0 xl:items-start">
                 <div class="container mx-auto">
                     <div class="servicesTop flex items-center flex-col px-6 xl:flex-row xl:mb-[60px]">
                         <h2 class="h2 text-accent-primary flex-1 mb-4 text-center xl:text-left">Our best services for your solution</h2>
@@ -176,7 +176,7 @@
                 </div>
             </div>
             <div class="container mx-auto mt-8 xl:mt-[-144px]">
-                <div class="grid gap-5 px-8 lg:grid-cols-2 xl:grid-cols-4 xl:px-0">
+                <div class="grid gap-5 px-4 lg:grid-cols-2 xl:grid-cols-4 xl:px-0">
                     <div class="servicesItem bg-accent-primary p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col justify-center items-center text-center z-10">
                         <div class="mb-[15px]">
                             <img src="assets/icons/services/icon-1.svg" alt="">
@@ -213,10 +213,7 @@
         <!-- Appointment Section -->
         <section class="appointment section">
             <div class="container mx-auto">
-                <h2 class="appointmentTitle h2 mb-5 text-center xl:mb-[50px] xl:text-left">
-                    Book Appointment or call: 
-                    <span class="text-primary">(+63) 987-654-321</span>
-                </h2>
+                <h2 class="appointmentTitle h2 mb-5 text-center xl:mb-[50px] xl:text-left">Book Appointment</h2>
                 <form class="appointmentForm flex flex-col gap-y-5 px-4">
                     <div class="flex flex-col  gap-5 xl:flex-row">
                         <div class="bg-accent-secondary select relative flex items-center">
@@ -263,7 +260,7 @@
                     <div class="hidden xl:flex">
                         <img src="assets/img/testimonials/img.png" alt="">
                     </div>
-                    <div class="max-w-full px-6 xl:max-w-[710px]">
+                    <div class="max-w-full px-4 xl:max-w-[710px]">
                         <div class="swiper w-full h-full">
                             <div class="swiper-wrapper mb-10">
                                 <div class="swiper-slide">
@@ -333,10 +330,10 @@
         <section class="team section">
             <div class="container mx-auto">
                 <h2 class="teamTitle h2 mb-[50px] text-center xl:text-left">Our Team</h2>
-                <div class="teamSlider swiper min-h-[400px]">
+                <div class="teamSlider swiper px-4 min-h-[400px]">
                     <div class="swiper-wrapper mb-10">
                         <div class="swiper-slide">
-                            <div class="flex flex-col gap-9 md:flex-row">
+                            <div class="flex flex-col px-4 gap-9 md:flex-row">
                                 <div class="flex-1 flex flex-col xl:flex-row">
                                     <div class="flex flex-col xl:flex-row items-center gap-[30px]">
                                         <div class="flex-1">
@@ -392,7 +389,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="flex flex-col gap-9 md:flex-row">
+                            <div class="flex flex-col px-4 gap-9 md:flex-row">
                                 <div class="flex-1 flex flex-col xl:flex-row">
                                     <div class="flex flex-col xl:flex-row items-center gap-[30px]">
                                         <div class="flex-1">
@@ -577,14 +574,52 @@
         <section class="blog section bg-accent-secondary">
             <div class="container mx-auto">
                 <h2 class="blogTitle h2 mb-[50px] text-center xl:text-left">Our Recents Posts</h2>
-                <div class="flex flex-col gap-y-6 items-center mb-[50px] xl:flex-row xl:gap-y-8 xl:justify-between">
+                <div class="flex flex-col gap-y-6 items-center mb-[50px] px-4 xl:flex-row xl:gap-y-8 xl:justify-between">
                     <div class="blogPost max-w-[420px] shadow-custom2 rounded-lg overflow-hidden cursor-pointer group">
                         <div class="relative overflow-hidden">
-                            <img src="assets/img/blog/img-1.png" alt="">
+                            <img class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/img-1.png" alt="">
+                            <div class="bg-primary absolute bottom-0 left-0 text-white text-base tracking-[2.5px] font-medium uppercase py-[6px] px-[18px]">Medical</div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <div class="mb-4 text-primary">Feb 14, 2018</div>
+                            <h4 class="h4 mb-[10px]">10 foods to avoid for your heart health</h4>
+                            <p class="font-light ">
+                                It's normal to feel anxiety, worry and grief any time you're 
+                                diagnosed with a condition that's certainly true... 
+                                <a href="#" class="italic underline text-primary">Read more</a>
+                            </p>
                         </div>
                     </div>
-                    <div>post 2</div>
-                    <div>post 3</div>
+                    <div class="blogPost max-w-[420px] shadow-custom2 rounded-lg overflow-hidden cursor-pointer group">
+                        <div class="relative overflow-hidden">
+                            <img class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/img-2.png" alt="">
+                            <div class="bg-primary absolute bottom-0 left-0 text-white text-base tracking-[2.5px] font-medium uppercase py-[6px] px-[18px]">Lifestyle</div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <div class="mb-4 text-primary">Dec 10, 2023</div>
+                            <h4 class="h4 mb-[10px]">Lifestyle hobbies that make your healthy at risk</h4>
+                            <p class="font-light ">
+                                It's normal to feel anxiety, worry and grief any time you're 
+                                diagnosed with a condition that's certainly true... 
+                                <a href="#" class="italic underline text-primary">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blogPost max-w-[420px] shadow-custom2 rounded-lg overflow-hidden cursor-pointer group">
+                        <div class="relative overflow-hidden">
+                            <img class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/img-3.png" alt="">
+                            <div class="bg-primary absolute bottom-0 left-0 text-white text-base tracking-[2.5px] font-medium uppercase py-[6px] px-[18px]">Prevention</div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <div class="mb-4 text-primary">July 01, 2024</div>
+                            <h4 class="h4 mb-[10px]">Prevention tips to fight the risk of having a disease</h4>
+                            <p class="font-light ">
+                                It's normal to feel anxiety, worry and grief any time you're 
+                                diagnosed with a condition that's certainly true... 
+                                <a href="#" class="italic underline text-primary">Read more</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
