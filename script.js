@@ -51,17 +51,34 @@ sr.reveal('.heroText', {origin: 'top'})
 sr.reveal('.heroImg')
 
 sr.reveal('.statsItem', {
-    delay: 600,
     distance: '100px',
-    inteval: 100,
+    inteval: 10,
     origin: 'top'
 });
 
 sr.reveal('.services');
 sr.reveal('.servicesTop');
 sr.reveal('.servicesItem', {
-    delay: 600,
     distance: '100px',
-    inteval: 100,
+    inteval: 10,
     origin: 'bottom'
 });
+
+sr.reveal('.appointmentTitle');
+sr.reveal('.appointmentForm');
+
+sr.reveal('.testimonials');
+sr.reveal('.testimonialContainer');
+
+sr.reveal('.teamTitle');
+sr.reveal('.teamSlider');
+
+sr.reveal('.faqTitle');
+sr.reveal('.faqItem', {
+    distance: '100px',
+    inteval: 10,
+    origin: 'bottom'
+});
+
+sr.reveal('.departmentsBg');
+sr.reveal('.departmentsContainer');
