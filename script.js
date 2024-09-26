@@ -82,3 +82,25 @@ sr.reveal('.faqItem', {
 
 sr.reveal('.departmentsBg');
 sr.reveal('.departmentsContainer');
+
+sr.reveal('.blogTitle');
+sr.reveal('.blogPost', {
+    distance: '100px',
+    inteval: 10,
+    origin: 'bottom'
+});
+
+sr.reveal('.brandsLogo', {
+    distance: '100px',
+    inteval: 10,
+    origin: 'bottom'
+});
+
+sr.reveal('.newsletter');
+sr.reveal('.newsletterContainer');
+
+sr.reveal('.footerItem', {
+    distance: '100px',
+    inteval: 10,
+    origin: 'bottom'
+});
