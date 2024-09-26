@@ -39,3 +39,29 @@ faqItems.forEach((item) => {
         iconElement.classList = `${iconClass} text-2xl`;
     });
 });
+
+// Scroll Function
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '60px',
+    duration: 2500,
+});
+
+sr.reveal('.heroText', {origin: 'top'})
+sr.reveal('.heroImg')
+
+sr.reveal('.statsItem', {
+    delay: 600,
+    distance: '100px',
+    inteval: 100,
+    origin: 'top'
+});
+
+sr.reveal('.services');
+sr.reveal('.servicesTop');
+sr.reveal('.servicesItem', {
+    delay: 600,
+    distance: '100px',
+    inteval: 100,
+    origin: 'bottom'
+});
