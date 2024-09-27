@@ -45,6 +45,7 @@ const sr = ScrollReveal({
     origin: 'bottom',
     distance: '60px',
     duration: 2500,
+    reset: true
 });
 
 sr.reveal('.heroText', {origin: 'top'})
