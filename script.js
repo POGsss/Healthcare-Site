@@ -44,7 +44,7 @@ faqItems.forEach((item) => {
 const sr = ScrollReveal({
     origin: 'bottom',
     distance: '60px',
-    duration: 2500,
+    duration: 2500
 });
 
 sr.reveal('.heroText', {origin: 'top'})
