@@ -1,3 +1,4 @@
+// Variables Declaration
 const mobileNav = document.querySelector('.mNav');
 const closeBtn = document.querySelector('.mNavClose');
 const closeBtnIcon = document.querySelector('.mNavIcon');
